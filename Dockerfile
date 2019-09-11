@@ -1,6 +1,6 @@
 FROM rabbitmq
 
-RUN sudo apt-get update
+RUN apt-get update
 
 RUN apt-get install default-jre
 
