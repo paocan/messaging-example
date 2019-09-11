@@ -13,6 +13,14 @@
         <jdk.version>1.8</jdk.version>
         <java.version>${jdk.version}</java.version>
         <spring.boot.dependencies.version>2.1.8.RELEASE</spring.boot.dependencies.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <maven.failsafe.plugin.version>2.22.2</maven.failsafe.plugin.version>
+        <maven.resources.plugin.version>3.1.0</maven.resources.plugin.version>
     </properties>
 
     <modules>
