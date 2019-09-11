@@ -1,8 +1,6 @@
 FROM rabbitmq
 
-RUN apt-get update
-
-RUN apt-get -y install default-jre
+RUN apt-get update && apt-get -y install default-jre && apt-get -y clean && apt-get -y autoclean
 
 ADD rmq-example/target/rmq-example-1.0-SNAPSHOT.jar /root/rmqexample.jar
 
